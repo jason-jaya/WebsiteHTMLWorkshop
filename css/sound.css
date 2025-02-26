@@ -1,0 +1,15 @@
+.player.active .play{
+    display: none;
+}
+
+.player.active .pause{
+    display: block;
+}
+
+.player .play{
+    display: block;
+}
+
+.player .pause{
+    display: none;
+}

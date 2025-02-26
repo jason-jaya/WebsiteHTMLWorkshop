@@ -1,0 +1,83 @@
+body {
+    height: 100%;
+    background: linear-gradient(to bottom, #202020, #111119); /* Use a linear gradient */
+    opacity: 0; /* Initially set opacity to 0 */
+    transition: opacity 2.3s ease-in-out;
+    background-repeat: no-repeat;
+    background-color: #2e2d2d;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    opacity: 0; /* Initially set opacity to 0 */
+    transition: opacity 1s ease; /* Apply transition effect */
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.text-box {
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 30px;
+    width: 30%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image behaves as a block element */
+    position: absolute; /* Position the image absolutely */
+    bottom: 5px; /* Align the bottom of the image with the bottom of its containing element (in this case, the page) */
+    left: 20px; /* Align the image to the right */
+}
+
+.fade-in {
+    opacity: 1; /* Change opacity to 1 when the element has the fade-in class */
+}
+
+.large-image {
+    width: 20%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image behaves as a block element */
+    position: absolute; /* Position the image absolutely */
+    bottom: 0; /* Align the bottom of the image with the bottom of its containing element (in this case, the page) */
+    right: 0; /* Align the image to the right */
+}
+
+.bottom-text-box {
+    position: fixed;
+    bottom: 100px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.493);
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%; /* Adjust width as needed */
+}
+.bottom-text-box2 {
+    font-size: 12px;
+    position: fixed;
+    bottom: 0px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.242);
+    padding: 1px;
+    border-radius: 5px;
+    width: 20%; /* Adjust width as needed */
+}
+
